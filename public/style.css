@@ -5,8 +5,8 @@
 }
 
 body {
-  background: #0010bf;
-  font-family: "Edu TAS Beginner", sans-serif;
+  background: #353638;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 .todo-container {
@@ -39,15 +39,17 @@ input {
   padding: 5px;
   border-radius: 5px;
   height: 20px;
-  font-family: "Edu TAS Beginner", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1rem;
 }
 
 textarea {
   display: block;
-  padding: 2px;
+  padding: 4px;
   width: 100%;
   border-radius: 5px;
-  font-family: "Edu TAS Beginner", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 0.9rem;
 }
 
 .todo-header button {
@@ -58,7 +60,7 @@ textarea {
   margin: 5px;
   padding: 5px;
   background-color: rgb(51, 212, 51);
-  font-family: "Edu TAS Beginner", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -76,7 +78,7 @@ ul {
 }
 
 .todo-list-item-content {
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -103,7 +105,7 @@ ul {
   background-color: rgb(51, 212, 100);
   margin-left: 5px;
   max-height: 30px;
-  font-family: "Edu TAS Beginner", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   display: block;
 }
 
