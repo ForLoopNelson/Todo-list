@@ -2,6 +2,7 @@ const express = require("express")
 const app = express()
 const mongoose = require("mongoose")
 const TodoTask = require("./models/todotask")
+const cors = require("cors")
 
 require("dotenv").config()
 const PORT = 8000
@@ -12,6 +13,7 @@ app.set("view engine", "ejs")
 app.use(express.static("public"))
 //helps validate info sent back and forth
 app.use(express.urlencoded({ extended: true }))
+app.use(cors())
 
 // connect to Mongo
 mongoose.connect(process.env.DB_Key, { useNewUrlParser: true }, () => {
