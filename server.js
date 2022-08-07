@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 
 // connect to Mongo
-mongoose.connect(process.env.DB_Key, { useNewUrlParser: true }, () => {
+mongoose.connect(process.env.DB_KEY, { useNewUrlParser: true }, () => {
   console.log("Connected to db!")
 })
 
