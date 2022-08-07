@@ -81,6 +81,6 @@ app.route("/remove/:id").get((req, res) => {
 })
 
 // Start Server
-app.listen(process.env.PORT || PORT, () =>
+app.listen(process.env.PORT || 8080, () =>
   console.log(`Server is running on port ${PORT}`)
 )
