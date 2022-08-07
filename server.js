@@ -5,7 +5,7 @@ const TodoTask = require("./models/todotask")
 const cors = require("cors")
 
 require("dotenv").config()
-const PORT = 8000
+// const PORT = 8000
 
 // Middleware
 app.set("view engine", "ejs")
